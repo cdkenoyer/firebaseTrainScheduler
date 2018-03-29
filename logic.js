@@ -29,7 +29,7 @@ var config = {
     var empName = $("#name-input").val().trim();
     var empRole = $("#destination-input").val().trim();
     var empStart = moment($("#start-input").val().trim(), "DD/MM/YY").format("X");
-    var empRate = $("#rate-input").val().trim();
+    var empRate = $("#frequency-input").val().trim();
 
   
     // Creates local "temporary" object for holding employee data
@@ -56,7 +56,7 @@ var config = {
     $("#name-input").val("");
     $("#destination-input").val("");
     $("#start-input").val("");
-    $("#rate-input").val("");
+    $("#frequency-input").val("");
   });
   
   // 3. Create Firebase event for adding employee to the database and a row in the html when a user adds an entry
