@@ -89,7 +89,7 @@ var config = {
     console.log(empBilled);
   
     // Add each train's data into the table
-    $("#employee-table > tbody").append("<tr><td>" + empName + "</td><td>" + empRole + "</td><td>" +
+    $("#table > tbody").append("<tr><td>" + empName + "</td><td>" + empRole + "</td><td>" +
      empRate + "</td><td>" + empMonths + "</td><td>" + empStartPretty + "</td><td>" + empBilled + "</td></tr>");
   });
   
